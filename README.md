@@ -1,6 +1,6 @@
 # TaskTracker
 
-A Simple Task Tracker build using Angular 7.2.0 and json-server.
+A Simple Task Tracker built using Angular 7.2.0 and json-server.
 
 ## Setting up and Running the project
 
