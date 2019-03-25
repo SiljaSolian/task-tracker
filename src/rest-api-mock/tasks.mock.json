@@ -1,0 +1,32 @@
+{
+    "tasks":[
+		{
+			"id": "ADF8ABE9-2DA0-4C42-9BB1-8575EBBF2DD3",
+			"name": "Summon a Developer",
+            "description": "Recite the following enchantment: \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+            "estimate": 1,
+            "state": "Planned"
+		},
+		{
+            "id": "363EC79B-A680-4CE5-92D8-7CDD99C9AFB3",
+            "name": "Drink Coffee",
+            "description": "Swig caffeine to fuel code production.",
+            "estimate": 1,
+            "state": "Completed"
+        },
+		{
+            "id": "5B6BA865-2471-49DE-ABDA-29E1C17CCD99",
+            "name": "Code task tracker",
+            "description": "Randomly copy and paste code until it works.",
+            "estimate": 4,
+            "state": "In progress"
+        },
+		{
+            "id": "37E2DDA3-32D4-4B2A-811A-9316C5C24062",
+            "name": "Feed the dog",
+            "description": "Introduce food into the hound's belly.",
+            "estimate": 1,
+            "state": "Planned"
+        }
+    ]
+}

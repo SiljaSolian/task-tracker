@@ -1,0 +1,60 @@
+.round-button {
+    border-radius: 100px;
+    height: 40px;
+    color: gainsboro;
+    width: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 0px grey;
+    user-select: none;
+}
+
+.button-icon {
+    font-size: xx-large;
+}
+
+.actions-menu {
+    background-color: #0a6f66;
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    z-index: 2;
+}
+
+.action-buttons {
+    position: fixed;
+    right: 26px;
+    bottom: 60px;
+    animation: slide-top 0.2s both;
+}
+
+@keyframes slide-top {
+    from {
+        position: fixed;
+        right: 25px;
+        bottom: 20px;
+    }
+    to {
+        position: fixed;
+        right: 25px;
+        bottom: 60px;
+    }
+}
+
+.add-button {
+    background-color: #339a38;
+    margin-bottom: 7px;
+}
+
+.delete-button {
+    background-color: #e24b4b;
+    margin-bottom: 7px;
+}
+
+.no-tasks {
+    color: #5d5d5d;
+    text-align: center;
+    margin-top: 30vh;
+}

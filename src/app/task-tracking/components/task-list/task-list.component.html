@@ -1,0 +1,24 @@
+<div class="task-list">
+  <div *ngFor="let task of tasks">
+    <app-task-widget [task]="task" (checked)="onTaskChecked($event)" (edit)="currentTask = $event"></app-task-widget>
+  </div>
+
+  <div class="no-tasks" *ngIf="!tasks || tasks.length === 0">
+    Currently There are no tasks to be displayed.
+  </div>
+
+  <div class="round-button actions-menu" (click)="onMenuClicked()">
+    <i class="material-icons button-icon">more_vert</i>
+  </div>
+
+  <div class="action-buttons" *ngIf="showButtons">
+      <div class="round-button add-button" (click)="onAdd()">
+        <i class="material-icons button-icon">add</i>
+      </div>
+      <div class="round-button delete-button" (click)="onDelete()">
+        <i class="material-icons button-icon">delete_forever</i>
+      </div>
+  </div>
+
+  <app-task-edit *ngIf="currentTask" [task]="currentTask" (done)="onEditDone()"></app-task-edit>
+</div>

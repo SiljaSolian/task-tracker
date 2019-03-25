@@ -1,0 +1,25 @@
+<div class="task-widget-content">
+  <div class="name-and-edit">
+    <div class="name"> {{task.name}} </div>
+    <div class="edit-icon" (click)="Edit()"><i class="material-icons">edit</i></div>
+  </div>
+  <div class="task-widget-actual-content">
+    <div class="checkbox-container">
+      <span *ngIf="isChecked" (click)="SetChecked(false)"><i class="material-icons">check_box</i></span>
+      <span *ngIf="!isChecked" (click)="SetChecked(true)"><i class="material-icons">check_box_outline_blank</i></span>
+    </div>
+
+    <div clas="actual-content">
+      <div class="description"> {{task.description}} </div>
+      <div class="estimate">
+        <div class="label">Estimated time:&nbsp;</div>
+        <div class="labeled-data">{{task.estimate}} hours</div>
+      </div>
+      <div class="state">
+        <div class="label">Status:&nbsp;</div>
+        <div class="labeled-data">{{task.state}}</div>
+      </div>
+    </div>
+  </div>
+  
+</div>

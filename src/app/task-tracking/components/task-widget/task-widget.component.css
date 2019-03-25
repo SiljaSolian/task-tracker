@@ -1,0 +1,51 @@
+.task-widget-content {
+    box-shadow: 1px 1px 5px 0px grey;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.name-and-edit {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: large;
+}
+
+.edit-icon {
+    color: #63584c;
+    cursor: pointer;
+    user-select: none;
+}
+
+.task-widget-actual-content {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container {
+    margin-right: 5px;
+    cursor: pointer;
+    color: #575798;
+    user-select: none;
+}
+
+.description {
+    font-size: medium;
+    color: gray;
+}
+
+.estimate, .state {
+    display: flex;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.labeled-data {
+    color: gray;
+}

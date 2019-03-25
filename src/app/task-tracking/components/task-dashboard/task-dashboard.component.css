@@ -1,0 +1,50 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6vh;
+    justify-content: center;
+}
+
+.statistic {
+    padding: 7px;
+    box-shadow: 1px 1px 5px -1px;
+    border-radius: 3px;
+    margin: 5px 0px;
+    max-width: 400px;
+    width: 50vw;
+    min-width: 220px;
+}
+
+.number, .hours {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.label {
+}
+
+.value {
+    color: gray;
+}
+
+.planned {
+    background-color: #fff9b0;
+}
+
+.inProgress {
+    background-color: #b9e6b9;
+}
+
+.completed {
+    background-color: #bcbcf9;
+}
+
+.total {
+    background-color: #e6e6e6;
+}

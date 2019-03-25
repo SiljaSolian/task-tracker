@@ -1,0 +1,44 @@
+<div class="task-edit-outter">
+  <div class="task-edit-container">
+    <div class="edit-row">
+      <div class="label">
+        Name: 
+      </div>
+      <input class="task-input" [(ngModel)]="task.name" placeholder="Task name...">
+    </div>
+
+    <div class="edit-row">
+      <div class="label">
+        Description: 
+      </div>
+      <textarea class="task-input" 
+        [(ngModel)]="task.description" 
+        placeholder="Task description..."
+        rows="5" cols="22">
+      </textarea>
+    </div>
+
+    <div class="edit-row">
+      <div class="label">
+        Estimate (hs): 
+      </div>
+      <input class="task-input" [(ngModel)]="task.estimate" placeholder="Task estimate in hours..." type="number">
+    </div>
+
+    <div class="edit-row">
+      <div class="label">
+        State: 
+      </div>
+      <select class="task-input" [(ngModel)]="task.state">
+        <option value="Planned">Planned</option>
+        <option value="In progress">In progress</option>
+        <option value="Completed">Completed</option>
+      </select>
+    </div>
+    
+    <div class="buttons">
+      <div (click)="onCancel()" class="button cancel">Cancel</div>
+      <div (click)="onSave()" class="button save">Save</div>
+    </div>
+  </div>
+</div>
