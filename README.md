@@ -1,6 +1,6 @@
 # TaskTracker
 
-This project was created by Marcelo Schild using Angular 7.2.0.
+A Simple Task Tracker build using Angular 7.2.0 and json-server.
 
 ## Setting up and Running the project
 
